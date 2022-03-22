@@ -32,6 +32,6 @@ var tknpl = function(){
   window.location = "http://" + link;
 }
 
-var diyahayu= "<data:blog.blogId/>";
-var iddcsafe= "2466203675768100431";
+var diyahayu= window.location.hostname;
+var iddcsafe= "dc-safelink.blogspot.com";
 if (diyahayu !== iddcsafe){window.location.href="https://dc-safelink.blogspot.com" ;}
